@@ -2,7 +2,6 @@ package com.bear.start;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 /**
  * springboot init
  *
@@ -15,5 +14,4 @@ public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
-
 }
