@@ -1,6 +1,7 @@
 package com.bear.start.controller;
 
 import com.bear.start.domain.User;
+import org.springframework.http.client.OkHttp3ClientHttpRequestFactory;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
@@ -63,5 +64,10 @@ public class GetController {
         map.clear();
         map.put("name",request.getParameter("name"));
         return map;
+    }
+
+    @GetMapping("/mockmvc")
+    public String test(){
+        return "ok";
     }
 }
