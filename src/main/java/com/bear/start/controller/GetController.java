@@ -1,7 +1,6 @@
 package com.bear.start.controller;
 
 import com.bear.start.domain.User;
-import org.springframework.http.client.OkHttp3ClientHttpRequestFactory;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;

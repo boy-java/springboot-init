@@ -44,6 +44,9 @@
     </distributionManagement>
 
     <build>
+        <!--构建项目名称
+        <finalName>xxxx</finalName>
+        -->
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
